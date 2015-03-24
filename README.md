@@ -1,4 +1,4 @@
-# legba-gii
+# legba-gii - About
 
 An extension of gii generator that brings several improvements.
 
@@ -14,3 +14,17 @@ Some of the improvements are things:
 
 - In the models for each relationship are created beyond getRelName () the getAllRelName () that behind all the list of entities that can be related to it (collection of active objects record of the relationship type). To facilitate the construction of views, is created getAllDataListRelName () that generates a list of the type key => value utility to popular forms, and is used to generate the improvements of relaciomaneto in views already described above.
 
+# legba-gii - Install
+
+- First clone (or fork / clone) git repository to your workplace, or if you prefer, download one of our releases in https://github.com/id5/legba-gii/releases
+
+- The location where the files should be (clone or download previous step) of legba-gii should be @ app / vendors / legba-gii
+
+- To enable the ability to generate the legba-gii templates, you must configure your application, then editer if u @ file app / conf / web.php and node to configure the gii, add:
+
+
+;) OK! Ready!
+
+Now to access the gii normally, and choose to generate CRUD, modules or templates in the selectbox TEMPLATE SET you can choose between standard generate (default option) or generate the legba-gii advanced (Legba Gii option)
+
+Abuse this, and contribute!!!
