@@ -25,3 +25,5 @@ To enable the ability to generate the legba-gii templates, you must configure yo
 Now to access the gii normally, and choose to generate CRUD, modules or templates in the selectbox TEMPLATE SET you can choose between standard generate (default option) or generate the legba-gii advanced (Legba Gii option)
 
 Abuse this, and contribute!!!
+
+[![Build Status](https://travis-ci.org/id5/legba-gii.svg?branch=master)](https://travis-ci.org/id5/legba-gii)
