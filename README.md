@@ -1,4 +1,6 @@
 legba-gii - About
+=====================================
+
 An extension of gii generator that brings several improvements.
 
 In all views, the button panel is more complete, including print button on all screens, list all and filter (for togglet form filters) and form better sized filters.
@@ -10,6 +12,8 @@ In the controls, the delete of methods were treated for exeções and not genera
 In the models for each relationship are created beyond getRelName () the getAllRelName () that behind all the list of entities that can be related to it (collection of active objects record of the relationship type). To facilitate the construction of views, is created getAllDataListRelName () that generates a list of the type key => value utility to popular forms, and is used to generate the improvements of relaciomaneto in views already described above.
 
 legba-gii - Install
+=====================================
+
 First clone (or fork / clone) git repository to your workplace, or if you prefer, download one of our releases in https://github.com/id5/legba-gii/releases
 
 The location where the files should be (clone or download previous step) of legba-gii should be @ app / vendors / legba-gii
