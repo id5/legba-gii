@@ -1,0 +1,34 @@
+{
+    "name": "id5/legba-gii",
+    "description": "An extension of gii generator that brings several improvements",
+    "keywords": ["yii2", "Gii"],
+    "type": "yii2-extension",
+    "license": "GNU",
+    "support": {
+        "issues": "https://github.com/id5/legba-gii/issues",
+        "source": "https://github.com/id5/legba-gii"
+    },
+    "authors": [
+        {
+            "name": "Lucas Barros",
+            "email": "lucas@id5.com.br"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "id5\\legba-gii\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
