@@ -101,7 +101,8 @@ class <?= $className ?> extends <?= '\\' . ltrim($generator->baseClass, '\\') . 
      */
     public function getAllDataList<?= $name ?>()
     {
-		if ( empty($relModel = <?= $relation[1] ?>::find()->asArray()->all() ) ) {
+    		$relModel = <?= $relation[1] ?>::find()->asArray()->all()
+		if ( empty( $relModel ) ) {
 			$arrTemp= array('', '');
 		}else{	
 			foreach($relModel[0] as $key => $value){  $arrTemp[] = $key; }	
